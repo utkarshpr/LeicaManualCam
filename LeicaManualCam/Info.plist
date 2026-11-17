@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleDisplayName</key>
+	<string>LeicaManualCam</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Capture photos and video with manual camera controls.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Used to work out which stars and constellations are above you for the sky map.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Record audio with your videos.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save your captures to Photos.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>person.crop.circle</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Take Selfie</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.upravind.lumepro.selfie</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>video.fill</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Record Video</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.upravind.lumepro.video</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>person.crop.square</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Portrait</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.upravind.lumepro.portrait</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>moon.stars.fill</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Night Mode</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.upravind.lumepro.night</string>
+		</dict>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Dark</string>
+</dict>
+</plist>

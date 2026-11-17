@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000000000000000000FF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000FF03 /* Assets.xcassets */; };
+		A1000000000000000000FF11 /* Looks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000FF01 /* Looks.swift */; };
+		A1000000000000000000FF12 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000FF02 /* Theme.swift */; };
+		A1000000000000000000FF14 /* Sky.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000FF04 /* Sky.swift */; };
+		A10000000000000000000011 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* CameraView.swift */; };
+		A10000000000000000000012 /* CameraEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* CameraEngine.swift */; };
+		A10000000000000000000013 /* LeicaManualCamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* LeicaManualCamApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000000000000000000FF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1000000000000000000FF01 /* Looks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Looks.swift; sourceTree = "<group>"; };
+		A1000000000000000000FF02 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A1000000000000000000FF04 /* Sky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sky.swift; sourceTree = "<group>"; };
+		A10000000000000000000001 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* CameraEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEngine.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* LeicaManualCamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeicaManualCamApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000005 /* LeicaManualCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeicaManualCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000006 /* LeicaManualCam */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000001 /* CameraView.swift */,
+				A1000000000000000000FF04 /* Sky.swift */,
+				A1000000000000000000FF02 /* Theme.swift */,
+				A1000000000000000000FF01 /* Looks.swift */,
+				A10000000000000000000002 /* CameraEngine.swift */,
+				A10000000000000000000003 /* LeicaManualCamApp.swift */,
+				A10000000000000000000004 /* Info.plist */,
+				A1000000000000000000FF03 /* Assets.xcassets */,
+			);
+			path = LeicaManualCam;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000005 /* LeicaManualCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000010 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000006 /* LeicaManualCam */,
+				A10000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000000000000000000000B /* LeicaManualCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000000000000000000000E /* Build configuration list for PBXNativeTarget "LeicaManualCam" */;
+			buildPhases = (
+				A10000000000000000000008 /* Sources */,
+				A10000000000000000000009 /* Frameworks */,
+				A1000000000000000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeicaManualCam;
+			productName = LeicaManualCam;
+			productReference = A10000000000000000000005 /* LeicaManualCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000000000000000000000C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = A1000000000000000000000D /* Build configuration list for PBXProject "LeicaManualCam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000010;
+			productRefGroup = A10000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000000000000000000000B /* LeicaManualCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000FF13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000011 /* CameraView.swift in Sources */,
+				A1000000000000000000FF14 /* Sky.swift in Sources */,
+				A1000000000000000000FF12 /* Theme.swift in Sources */,
+				A1000000000000000000FF11 /* Looks.swift in Sources */,
+				A10000000000000000000012 /* CameraEngine.swift in Sources */,
+				A10000000000000000000013 /* LeicaManualCamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10000000000000000000023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XNLSDU5C4C;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LeicaManualCam/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upravind.lumepro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000000024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XNLSDU5C4C;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LeicaManualCam/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upravind.lumepro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000000000000000000000D /* Build configuration list for PBXProject "LeicaManualCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000021 /* Debug */,
+				A10000000000000000000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000000000000000000000E /* Build configuration list for PBXNativeTarget "LeicaManualCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000023 /* Debug */,
+				A10000000000000000000024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000000000000000000000C /* Project object */;
+}
